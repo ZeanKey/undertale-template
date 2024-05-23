@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"lang",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"lang",
+  "parent":{
+    "name":"GMU",
+    "path":"folders/Extensions/GMU.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

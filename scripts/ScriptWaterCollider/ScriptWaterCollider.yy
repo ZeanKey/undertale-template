@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ScriptWaterCollider",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScriptWaterCollider",
+  "parent":{
+    "name":"Water",
+    "path":"folders/Battle/Entities/Bullet/Others/Water.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

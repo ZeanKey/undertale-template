@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_reset",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_reset",
+  "parent":{
+    "name":"GML_Extension",
+    "path":"folders/Scripts/GML_Extension.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

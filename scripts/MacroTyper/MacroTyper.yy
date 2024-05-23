@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"MacroTyper",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MacroTyper",
+  "parent":{
+    "name":"Macro",
+    "path":"folders/Scripts/Macro.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

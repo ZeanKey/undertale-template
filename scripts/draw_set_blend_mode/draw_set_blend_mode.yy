@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_set_blend_mode",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"draw_set_blend_mode",
+  "parent":{
+    "name":"Legacy",
+    "path":"folders/Scripts/GML_Extension/Legacy.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

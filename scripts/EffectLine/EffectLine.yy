@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"EffectLine",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"EffectLine",
+  "parent":{
+    "name":"Cloth",
+    "path":"folders/Battle/UI/Boards/Fake/Cloth.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

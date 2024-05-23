@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ScriptF3D",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScriptF3D",
+  "parent":{
+    "name":"Vertex",
+    "path":"folders/Scripts/Vertex.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

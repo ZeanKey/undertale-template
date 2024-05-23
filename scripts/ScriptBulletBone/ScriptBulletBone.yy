@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ScriptBulletBone",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScriptBulletBone",
+  "parent":{
+    "name":"Bone",
+    "path":"folders/Battle/Entities/Bullet/Bone.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

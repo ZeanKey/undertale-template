@@ -1,0 +1,3 @@
+转换GML脚本：${project_dir}\objects\object0\Create_0.gml
+已转换字符串 - 第2行: 'intensity' → "intensity"
+已转换字符串 - 第3行: 'blurSize' → "blurSize"

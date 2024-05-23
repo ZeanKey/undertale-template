@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"bgmTwinkingRay",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":150.96162,
+  "name":"bgmTwinkingRay",
+  "parent":{
+    "name":"BGM",
+    "path":"folders/Assets/Sounds/BGM.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"bgmTwinkingRay.mp3",
+  "type":0,
+  "volume":1.0,
+}

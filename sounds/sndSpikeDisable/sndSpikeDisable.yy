@@ -1,0 +1,25 @@
+{
+  "$GMSound":"",
+  "%Name":"sndSpikeDisable",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "bitRate":128,
+  "compression":0,
+  "conversionMode":0,
+  "duration":1.071429,
+  "name":"sndSpikeDisable",
+  "parent":{
+    "name":"SFX",
+    "path":"folders/Assets/Sounds/SFX.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"sndSpikeDisable",
+  "type":0,
+  "volume":1.0,
+}

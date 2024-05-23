@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ScriptTimer",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScriptTimer",
+  "parent":{
+    "name":"Timer",
+    "path":"folders/Extensions/Timer.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

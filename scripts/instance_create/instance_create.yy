@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"instance_create",
+  "isCompatibility":true,
+  "isDnD":false,
+  "name":"instance_create",
+  "parent":{
+    "name":"Legacy",
+    "path":"folders/Scripts/GML_Extension/Legacy.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

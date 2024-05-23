@@ -1,0 +1,1 @@
+Fader_Fade(1,0,60,c_black);

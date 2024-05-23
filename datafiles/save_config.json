@@ -1,0 +1,10 @@
+{
+    "Timing" : 0,
+    "IsValid" : 1,
+    "IsNamed" : 0,
+    "PlayerStat"    : -1,
+    "PlayerWeapon"  : -1,
+    "PlayerArmor"   : -1,
+    "InvPlayer" : -1,
+    "InvBox1"   : -1
+}

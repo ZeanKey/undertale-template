@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_sprite_pos_fixed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_sprite_pos_fixed",
+  "parent":{
+    "name":"GML_Extension",
+    "path":"folders/Scripts/GML_Extension.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

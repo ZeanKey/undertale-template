@@ -1,0 +1,3 @@
+/// @desc Update
+Stage.InputRefresh();
+

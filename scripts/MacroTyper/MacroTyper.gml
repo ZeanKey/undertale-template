@@ -1,0 +1,5 @@
+enum DIALOG_TYPE {
+	SELECTOR,
+	ENTER,
+	CALLBACK
+}

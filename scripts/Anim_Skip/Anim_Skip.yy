@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Anim_Skip",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Anim_Skip",
+  "parent":{
+    "name":"Anim",
+    "path":"folders/Extensions/GMU/Anim.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

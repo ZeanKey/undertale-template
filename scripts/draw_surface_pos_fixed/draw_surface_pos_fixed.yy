@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"draw_surface_pos_fixed",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"draw_surface_pos_fixed",
+  "parent":{
+    "name":"GML_Extension",
+    "path":"folders/Scripts/GML_Extension.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

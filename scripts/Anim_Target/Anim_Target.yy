@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Anim_Target",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Anim_Target",
+  "parent":{
+    "name":"Anim",
+    "path":"folders/Extensions/GMU/Anim.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

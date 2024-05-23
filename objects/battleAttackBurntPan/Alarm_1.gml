@@ -1,0 +1,6 @@
+/// @desc
+_isCooldown = false;
+
+
+
+

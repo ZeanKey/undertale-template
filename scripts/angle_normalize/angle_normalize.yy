@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"angle_normalize",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"angle_normalize",
+  "parent":{
+    "name":"GML_Extension",
+    "path":"folders/Scripts/GML_Extension.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

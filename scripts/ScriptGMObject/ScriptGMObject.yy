@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ScriptGMObject",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScriptGMObject",
+  "parent":{
+    "name":"undertale_template_legacy",
+    "path":"undertale_template_legacy.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

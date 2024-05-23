@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"battle_3d",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"battle_3d",
+  "parent":{
+    "name":"Turns",
+    "path":"folders/Battle/Configs/Turns.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

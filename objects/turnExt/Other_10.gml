@@ -1,0 +1,1 @@
+/// @desc Typer Event

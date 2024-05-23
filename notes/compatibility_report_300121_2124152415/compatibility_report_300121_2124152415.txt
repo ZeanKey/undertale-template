@@ -1,0 +1,47 @@
+macOS 图标${options_dir}\mac\icons\icon512.png写为32位
+由于 GameMaker Studio 2 中的更改，Windows NSIS 安装程序脚本已设置为默认值
+转换GML脚本：${project_dir}\scripts\input_check\input_check.gml
+已转换字符串 - 第6行: 'Z' → "Z"
+已转换字符串 - 第12行: 'X' → "X"
+已转换字符串 - 第18行: 'C' → "C"
+
+转换GML脚本：${project_dir}\scripts\input_check_pressed\input_check_pressed.gml
+已转换字符串 - 第6行: 'Z' → "Z"
+已转换字符串 - 第12行: 'X' → "X"
+已转换字符串 - 第18行: 'C' → "C"
+
+转换GML脚本：${project_dir}\scripts\input_check_released\input_check_released.gml
+已转换字符串 - 第6行: 'Z' → "Z"
+已转换字符串 - 第12行: 'X' → "X"
+已转换字符串 - 第18行: 'C' → "C"
+
+字体 font8bitSans10 已转换为字体系列 Determination Sans（Regular）
+GameMaker Studio 1 字体纹理已备份到 ${project_dir}\fonts\font8bitSans10\font8bitSans10.gms1.png
+字体 font8bitSans20 已转换为字体系列 Determination Sans（Regular）
+GameMaker Studio 1 字体纹理已备份到 ${project_dir}\fonts\font8bitSans20\font8bitSans20.gms1.png
+字体 font8bitMono10 已转换为字体系列 Determination Mono（Regular）
+GameMaker Studio 1 字体纹理已备份到 ${project_dir}\fonts\font8bitMono10\font8bitMono10.gms1.png
+字体 font8bitMono20 已转换为字体系列 Determination Mono（Regular）
+GameMaker Studio 1 字体纹理已备份到 ${project_dir}\fonts\font8bitMono20\font8bitMono20.gms1.png
+字体 fontSans 已转换为字体系列 Comic Sans MS（Regular）
+GameMaker Studio 1 字体纹理已备份到 ${project_dir}\fonts\fontSans\fontSans.gms1.png
+字体 fontMNC18 已转换为字体系列 Mars Needs Cunnilingus（Regular）
+GameMaker Studio 1 字体纹理已备份到 ${project_dir}\fonts\fontMNC18\fontMNC18.gms1.png
+转换GML脚本：${project_dir}\objects\battleCleaner\Step_0.gml
+已转换字符串 - 第1行: 'A' → "A"
+已转换字符串 - 第5行: 'Q' → "Q"
+已转换字符串 - 第9行: 'W' → "W"
+已转换字符串 - 第13行: 'D' → "D"
+
+转换GML脚本：${project_dir}\objects\textTyper\Create_0.gml
+已转换描述 /// @description  @description Insert description here
+
+转换GML脚本：${project_dir}\objects\textTyper\Draw_0.gml
+已转换描述 /// @description  @description Insert description here
+
+缺少声音的音频组：“global.__sndNoone” - 设置为默认音频组
+游戏速度设置为 60
+已添加兼容性脚本 'draw/draw_set_blend_mode.gml'
+已添加兼容性脚本 'instance/instance_create.gml'
+已添加兼容性脚本 'object/object_get_depth.gml'
+已添加兼容性脚本 '__global_object_depths.gml'

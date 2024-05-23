@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"MacroBattle",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MacroBattle",
+  "parent":{
+    "name":"Battle",
+    "path":"folders/Battle.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

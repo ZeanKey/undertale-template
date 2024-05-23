@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"GBSButtonEffect",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"GBSButtonEffect",
+  "parent":{
+    "name":"GBS",
+    "path":"folders/Battle/UI/Buttons/GBS.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

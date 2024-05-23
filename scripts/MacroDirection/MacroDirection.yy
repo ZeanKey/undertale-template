@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"MacroDirection",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MacroDirection",
+  "parent":{
+    "name":"Macro",
+    "path":"folders/Scripts/Macro.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

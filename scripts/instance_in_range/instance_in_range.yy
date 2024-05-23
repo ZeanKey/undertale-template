@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"instance_in_range",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"instance_in_range",
+  "parent":{
+    "name":"GML_Extension",
+    "path":"folders/Scripts/GML_Extension.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

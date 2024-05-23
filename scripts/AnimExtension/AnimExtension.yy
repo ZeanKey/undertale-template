@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"AnimExtension",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"AnimExtension",
+  "parent":{
+    "name":"AnimExtension",
+    "path":"folders/Extensions/AnimExtension.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

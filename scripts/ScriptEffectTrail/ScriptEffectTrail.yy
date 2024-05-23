@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ScriptEffectTrail",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScriptEffectTrail",
+  "parent":{
+    "name":"Trail",
+    "path":"folders/Battle/Effects/Trail.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

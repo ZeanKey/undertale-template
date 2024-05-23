@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ScriptBulletBlaster",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ScriptBulletBlaster",
+  "parent":{
+    "name":"Blaster",
+    "path":"folders/Battle/Entities/Bullet/Blaster.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

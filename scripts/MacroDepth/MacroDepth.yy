@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"MacroDepth",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"MacroDepth",
+  "parent":{
+    "name":"Macro",
+    "path":"folders/Scripts/Macro.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
