@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"Spatial",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Spatial",
+  "parent":{
+    "name":"Add",
+    "path":"folders/Battle/UI/Boards/Add.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

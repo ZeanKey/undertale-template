@@ -5,11 +5,11 @@ var TURN_OBJECT = undefined;
 
 switch (battle.TurnIndex) {
 	case 0:
-	TURN_OBJECT = turnSpaceDream;
+	TURN_OBJECT = turn3DTest;
 	break;
 }
 
 if (is_undefined(TURN_OBJECT)) then show_error("Encounter - Turn Object doesn't exist.", true);
 
-Cache.TurnObject = TURN_OBJECT
+Cache.TurnObject = TURN_OBJECT;
 

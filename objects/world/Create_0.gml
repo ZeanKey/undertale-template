@@ -1,20 +1,25 @@
 ///@desc Init
 bktglitch_init();
 
+// TODO
 _isNamed = false;
 
 GameTiming = 0;
 
-instance_create(0, 0, save);
-instance_create(0, 0, screen);
-instance_create(0, 0, camera);
+// TODO
+global.SaveManager		= instance_create(0, 0, save);
+global.ScreenManager	= instance_create(0, 0, screen);
+global.CameraManager	= instance_create(0, 0, camera);
 
 save.Init();
-if (not save.Exists(0)) then save.New(0);
+if (!save.Exists(0))
 {
-	// Initialize template
-	event_user(0);
+	save.New(0);
 }
+
+// Initialize template
+event_user(0);
+
 save.Load(0);
 
 repeat (5) WORLD_OVERWORLD.Boxes.Find(1).Add(ITEM_INDEX.AIR_COLUMN_BAG)
@@ -53,9 +58,11 @@ with (screen) {
 room_goto(roomLaunch);
 exit;
 
-if (_isNamed) {
+if (_isNamed)
+{
 	room_goto(roomMainMenu);
 }
-else {
+else
+{
 	room_goto(roomNaming);
 }

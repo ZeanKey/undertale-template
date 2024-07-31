@@ -1,0 +1,12 @@
+{
+  "$GMShader":"",
+  "%Name":"shdrModelRecolor",
+  "name":"shdrModelRecolor",
+  "parent":{
+    "name":"Add",
+    "path":"folders/Battle/UI/Boards/Add.yy",
+  },
+  "resourceType":"GMShader",
+  "resourceVersion":"2.0",
+  "type":1,
+}

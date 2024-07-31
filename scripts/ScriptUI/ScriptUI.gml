@@ -36,7 +36,7 @@ MENU.__choiceGenerator.Add = method(MENU.__choiceGenerator, function (paraX, par
 });
 MENU.__choiceGenerator.End = method(MENU.__choiceGenerator, function () {
     var tmpArray = [];
-    array_copy_fixed(tmpArray, __array);
+    array_copy_simplified(tmpArray, __array);
     return tmpArray;
 });
 

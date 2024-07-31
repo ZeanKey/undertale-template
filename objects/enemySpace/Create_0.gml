@@ -14,7 +14,7 @@ TyperInfo.Color		= "Black";
 TyperInfo.Font		= "RegularWorld";
 TyperInfo.Sep		= 0;
 TyperInfo.Leading	= 16;
-TyperInfo.Sound		= SND_NONE;
+TyperInfo.Sound		= "sndNoise";
 TyperInfo.GetX = function () {
 	return x + 20;
 };

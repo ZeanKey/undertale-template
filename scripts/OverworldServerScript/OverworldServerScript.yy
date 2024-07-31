@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"OverworldServerScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"OverworldServerScript",
+  "parent":{
+    "name":"Global",
+    "path":"folders/Global.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

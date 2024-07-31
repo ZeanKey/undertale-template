@@ -1,7 +1,7 @@
 /// @desc Set
 event_inherited();
 
-event_user(0)
+event_user(0);
 
 Movenable = {
 	_premises : {},

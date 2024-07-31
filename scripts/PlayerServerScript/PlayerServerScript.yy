@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"PlayerServerScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"PlayerServerScript",
+  "parent":{
+    "name":"Global",
+    "path":"folders/Global.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

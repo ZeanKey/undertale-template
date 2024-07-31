@@ -41,7 +41,8 @@ enum SOUL_MODE {
 	GREEN,
 	YELLOW,
 	FLAPPY,
-	ERROR
+	ERROR,
+	THREE_D
 }
 
 enum SOUL_UI_MODE {

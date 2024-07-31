@@ -1,4 +1,5 @@
 /// @desc Render
+exit;
 if (Info.IsSpared) {
 	exit;
 }

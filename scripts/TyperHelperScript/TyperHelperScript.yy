@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"TyperHelperScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"TyperHelperScript",
+  "parent":{
+    "name":"Global",
+    "path":"folders/Global.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

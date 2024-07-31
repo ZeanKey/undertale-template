@@ -1,0 +1,13 @@
+{
+  "$GMScript":"",
+  "%Name":"ItemServerScript",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"ItemServerScript",
+  "parent":{
+    "name":"Global",
+    "path":"folders/Global.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

@@ -75,24 +75,24 @@ BoardVBuffer = vertex_create_buffer(); {
 	vertex_begin(v_buffer, global.format_general);
 		  
 	vertex_position_3d(v_buffer, 0, 0, 0);
-	vertex_texcoord(v_buffer, 0, 0);
-	vertex_color(v_buffer, -1, 1);
 	vertex_normal(v_buffer, 0, 0, -1);
+	vertex_color(v_buffer, -1, 1);
+	vertex_texcoord(v_buffer, 0, 0);
 		  
 	vertex_position_3d(v_buffer, 640, 0, 0);
-	vertex_texcoord(v_buffer, 1, 0);
-	vertex_color(v_buffer, -1, 1);
 	vertex_normal(v_buffer, 0, 0, -1);
+	vertex_color(v_buffer, -1, 1);
+	vertex_texcoord(v_buffer, 1, 0);
 	
 	vertex_position_3d(v_buffer, 0, 480, 0);
-	vertex_texcoord(v_buffer, 0, 1);
-	vertex_color(v_buffer, -1, 1);
 	vertex_normal(v_buffer, 0, 0, -1);
+	vertex_color(v_buffer, -1, 1);
+	vertex_texcoord(v_buffer, 0, 1);
 	
 	vertex_position_3d(v_buffer, 640, 480, 0);
-	vertex_texcoord(v_buffer, 1, 1);
-	vertex_color(v_buffer, -1, 1);
 	vertex_normal(v_buffer, 0, 0, -1);
+	vertex_color(v_buffer, -1, 1);
+	vertex_texcoord(v_buffer, 1, 1);
 
 	vertex_end(v_buffer);
 }

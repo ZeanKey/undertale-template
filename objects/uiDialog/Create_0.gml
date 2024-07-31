@@ -12,7 +12,7 @@ function SelectorDataGenerator() constructor {
 	};
 	Generate = function () {
 		var ARRAY = [];
-		array_copy_fixed(ARRAY, _content);
+		array_copy_simplified(ARRAY, _content);
 		_content = [];
 		return ARRAY;
 	};
@@ -52,7 +52,7 @@ DataToDialog = function (paraArray) {
 // Trans selector array to selector choices(position only)
 DataSimplify = function (paraArray) {
 	var ARRAY_OUT = [];
-	array_copy_fixed(ARRAY_OUT, paraArray);
+	array_copy_simplified(ARRAY_OUT, paraArray);
 	for (var INDEX = 0; INDEX < array_length(ARRAY_OUT); INDEX ++) {
 		ARRAY_OUT[INDEX][2] = " "; 
 	}

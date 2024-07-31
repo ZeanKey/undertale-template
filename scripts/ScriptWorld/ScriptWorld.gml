@@ -13,7 +13,7 @@
 #macro WORLD_OVERWORLD world.Overworld
 #macro WORLD_ENCOUNTER world.Encounter
 #macro WORLD_ITEM world.Item
-#macro WORLD_TYPER world.Typer
+#macro WORLD_TYPER global.TyperServer
 #macro WORLD_PLAYER world.Player
 
 #macro SND_NONE sndNone
@@ -46,10 +46,12 @@ global.format_perspective = vertex_format_end();
 
 vertex_format_begin();
 vertex_format_add_position_3d();
-vertex_format_add_texcoord();
-vertex_format_add_colour();
 vertex_format_add_normal();
+vertex_format_add_colour();
+vertex_format_add_texcoord();
 global.format_general = vertex_format_end();
+
+global.format_sealed = vertexize();
 #endregion
 
 DirectionToAngle = function (_dir) {
@@ -400,7 +402,7 @@ function linear_get_result(paraX0, paraY0, paraX1, paraY1, paraNX)
 	return A * paraNX + B;
 }
 
-function array_copy_fixed(paraDest, paraSrc)
+function array_copy_simplified(paraDest, paraSrc)
 {
 	array_copy(paraDest, 0, paraSrc, 0, array_length(paraSrc));
 }
@@ -484,14 +486,14 @@ function rodrigues_rotation(paraVector, paraTheta)
 		    [0, 0, 0, 1]]
 	
 	var MAT1 = [];
-	array_copy_fixed(MAT1, MAT_EYE3);
+	array_copy_simplified(MAT1, MAT_EYE3);
 	matrix_multiple(MAT1, cos(THETA));
 	
 	var MAT2 = matrix_multiply_transpose(matrix_get_transpose(paraVector), paraVector);
 	matrix_multiple(MAT2, 1 - cos(THETA));
 	
 	var MAT3 = [];
-	array_copy_fixed(MAT3, M);
+	array_copy_simplified(MAT3, M);
 	matrix_multiple(MAT3, sin(THETA));
 	
 	for (var CUR_ROW = 0; CUR_ROW < 3; CUR_ROW ++)
@@ -527,4 +529,24 @@ function clamp_loop(paraVal, paraMin, paraMax) {
 	if (paraVal < paraMin) then return paraMax;
 	if (paraVal > paraMax) then return paraMin;
 	return paraVal;
+}
+
+function draw_debug_message(valText, valLine)
+{
+	var BLEND_ORI = draw_get_color();
+	var VALI_ORI = draw_get_valign();
+	var HALI_ORI = draw_get_valign();
+	var FONT_ORI = draw_get_font();
+	
+	draw_set_valign(fa_bottom);
+	draw_set_halign(fa_left);
+	draw_set_color(c_white);
+	draw_set_font(fontFzxs9);
+	
+	draw_text_transformed(20, 40 + 20 * valLine, valText, 640 / window_get_width(), 480 / window_get_height(), 0);
+	
+	draw_set_valign(VALI_ORI);
+	draw_set_halign(HALI_ORI);
+	draw_set_color(BLEND_ORI);
+	draw_set_font(FONT_ORI);
 }
