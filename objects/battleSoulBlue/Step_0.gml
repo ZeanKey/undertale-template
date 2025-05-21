@@ -1,5 +1,4 @@
 /// @desc Input & Motion
-if (live_call()) return live_result;
 event_inherited()
 
 _velocity.Add(global.Vector.Polar(image_angle - 90, _accelGravity));
